@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color:#F1EBDD;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	margin: 0 20%;
+}
+
+h1 {
+	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	border-bottom: 1px #88C0C6 solid;
+	text-transform: uppercase;
+}
+h2 {
+	color: #EB7927;
+}
+
+em {
+	color: #CA080C;
+}
