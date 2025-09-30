@@ -1,0 +1,27 @@
+@charset "utf-8";
+dt,dd,h5,h6 
+		{font-family: "dederon-sans-web", sans-serif;
+		font-weight: 500;
+		font-style: normal;}
+h1,h2,h4,h3
+		{font-family: "dederon-sans-web", sans-serif;
+		font-weight: 700;
+		font-style: normal;}
+body{background-color: lightpink}
+a:link {color: hotpink;
+text-decoration-line: none}
+a:visited {color: deeppink}
+a:hover {color: white}
+a:active {color: mediumpurple}
+
+.weekly{
+	width: 45%;
+	float: left;
+	margin: 0 5%;
+}
+#project{
+	width: 45%;
+	float: left;
+}
+.demo{
+	color: white}
