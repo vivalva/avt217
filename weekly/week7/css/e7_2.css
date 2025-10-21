@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+.help{
+	height: 67px;
+	width: 908px;
+	background-color:aqua;
+	position: absolute; top: 0px; left: 0px;
+	float: left;
+}
+.me{
+	height: 31px;
+	width: 908px;
+	background-color: blueviolet;
+	position: absolute; top: 82px; left: 0px;
+}
+
+.one{ width: 207px;
+	height: 382px;
+	background-color:blue;
+	position: absolute; top: 128px; left: 16px;
+	
+}
+
+.two{
+	 width: 207px;
+	height: 382px;
+	background-color:blue;
+	position: absolute; top: 128px; left: 238px;
+}
+
+.three{
+	 width: 207px;
+	height: 382px;
+	background-color:blue;
+	position: absolute; top: 128px; left: 462px;
+}
+
+.four{
+	 width: 207px;
+	height: 382px;
+	background-color:blue;
+	position: absolute; top: 128px; left: 685px;
+}
+
+.bottom{
+	width: 908px;
+	height: 55px;
+	background-color:firebrick;
+	position: absolute; top: 523px;
+}
