@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+.col1{
+	width: 300px;
+	height: 200px;
+	float: left;
+	background-color: aqua;
+}
+
+.col2{
+	width: 300px;
+	height: 200px;
+	float: left;
+	background-color: blueviolet;
+}
+
+.col3{
+	width: 300px;
+	height: 200px;
+	float: left;
+	background-color: chartreuse;
+}
+.box2{
+	height: 300px;
+	width: 1200px;
+	background-color: crimson;
+	justify-content: space-evenly;
+}
+.col4{
+	height: 200px;
+	width: 200px;
+	background-color: magenta;
+}
+
+.col5{
+	height: 200px;
+	width: 350px;
+	background-color: coral;
+}
+
+.col6{
+	height: 200px;
+	width: 350px;
+	background-color: royalblue;
+}
+
+
