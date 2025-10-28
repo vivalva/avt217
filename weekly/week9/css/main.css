@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* CSS Document */
+  body {
+	font-family: "cofo-raffine", sans-serif;
+font-weight: 600;
+font-style: normal;
+	  font-size: 100px;
+    text-align: center;
+    background:url("../img/pumpkinpie.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+#container {
+
+  }
+
+  p {
+    text-transform:uppercase;
+  }
+ 
+
+
+/* tell browser don't display it when screen is wider than 768px */
+  .mobile-only {
+    display: none;
+  }
+
+/* tell browser to do the followings when screen is at and narrower than 768px */
+  @media only screen and (max-width: 768px) {
+	  
+    body {
+ font-family: "cofo-raffine", sans-serif;
+font-weight: 600;
+font-style: normal;
+    }
+	  
+	#container {
+ 
+    }
+	   
+    p {
+text-transform: uppercase;
+    }
+	  
+	#cursive {
+  	}
+	  
+    .mobile-only {
+   
+    }
+	  /* Now the style and content for desktop will not be displied */
+    .desktop-only {
+  
+    }
+
+} /* don't forget to close the styles for mobile/
