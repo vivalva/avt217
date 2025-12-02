@@ -1,0 +1,114 @@
+@charset "utf-8";
+head{
+	
+}.banner {
+width: 1335px;
+height: 200px;
+font-family: petala-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+}
+
+.bark{
+width: 100%;
+	height: 100%;
+object-fit: cover;
+}
+
+body {
+	background-color: #D3EEF5;
+}
+
+
+.sun{
+	height: 200px;
+	width: 200px;
+	background-image: url("../img/sun.png");
+	background-size: cover;
+	background-position: center;
+		background-repeat: no-repeat;
+	position: absolute;
+	top:175px;
+	left: 600px;
+}
+.logo{
+	text-align: center;
+	font-size: 30px;
+	font-family: petala-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+	position: relative;
+	z-index: 1000;
+	letter-spacing: 30px;
+	color: #FFFFFF;
+	background-color: #002327;
+	text-decoration: none;
+	
+}
+	
+.buttons{
+	height: 50px;
+	width: 1350px;
+	color: #FFFFFF;
+	background-color: #3C9AA6;
+	font-size: 25px;
+	font-family: petala-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+	word-spacing: 270px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 0.1px;
+	padding-bottom: 30px;
+	text-decoration: none;
+	
+}
+.abouthead{
+	color: #002327;
+	padding-left: 50px;
+	font-family: area-normal, sans-serif;
+font-weight: 700;
+font-style: normal;
+	
+}
+.text {
+	width: 550px;
+	padding-left: 50px;
+	color: #002327;
+	line-height: 35px;
+	font-family: area-normal, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+}
+
+footer{
+	background-color: aliceblue;
+
+}
+
+a{
+	text-decoration: none;
+	color: #FFFFFF;
+
+}
+
+a:visited {
+	color: #FFFFFF;
+}
+
+a:hover{
+	color: #3E6166;
+}
+
+.mainimg{
+	background-image:url("../img/argglacier.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 275px;
+	width: 600px;
+	position: absolute;
+	top: 540px;
+	right: -110px;
+}
