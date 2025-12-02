@@ -1,0 +1,48 @@
+@charset "utf-8";
+body {
+	background-color: #D3EEF5;}
+
+.sun{
+	height: 300px;
+	width: 300px;
+	background-image: url("../img/sun.png");
+	background-size: cover;
+	background-position: center;
+		background-repeat: no-repeat;
+	position: absolute;
+	top:120px;
+	left: 550px;}
+
+.logo{
+	text-align: center;
+	font-size: 30px;
+	font-family: petala-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+	position: relative;
+	top: 200px;
+	z-index: 1000;
+	letter-spacing: 30px;
+	color: #FFFFFF;
+	background-color: #002327;
+	text-decoration: none;
+}
+
+.buttons{
+	position: absolute;
+	top: 0px;
+	height: 50px;
+	width: 1350px;
+	color: #FFFFFF;
+	background-color: #3C9AA6;
+	font-size: 25px;
+	font-family: petala-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+	word-spacing: 270px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 0.1px;
+	padding-bottom: 30px;
+	
+}
